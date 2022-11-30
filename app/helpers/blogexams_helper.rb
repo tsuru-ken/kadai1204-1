@@ -1,0 +1,2 @@
+module BlogexamsHelper
+end
