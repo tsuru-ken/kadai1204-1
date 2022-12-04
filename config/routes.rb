@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
-  # get '/blogexams', to: 'blogexams#index'
-  resources :blogs
+  resources :blogs do
+    collection do
+      post :confirm
+    end
+  end
 end
